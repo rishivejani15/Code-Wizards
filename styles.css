@@ -1,0 +1,23 @@
+/* Add your styles for the play button and music player here */
+.music-player {
+    text-align: center;
+    margin: 20px;
+}
+
+.play {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #27a776;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.play:hover {
+    background-color: #32cf93;
+}
+
+audio{
+    display: none;
+}
