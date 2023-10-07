@@ -1,0 +1,92 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a background color to the body */
+body {
+    background-image: url("newsletterbg.jpg");
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Style the container */
+.container {
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    transition: box-shadow 0.3s ease; /* Add box shadow transition */
+}
+
+/* Add a subtle hover effect to the container */
+.container:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the title */
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style the label and input */
+label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#wordInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Style the button with a gradient background and hover animation */
+#viewStoryBtn {
+    background: linear-gradient(45deg, #007BFF, #00BFFF);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#viewStoryBtn:hover {
+    background: linear-gradient(45deg, #0056b3, #0080ff);
+    animation: pulse 0.5s infinite; /* Add a pulsating animation */
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Style the story container */
+#storyContainer {
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+}
