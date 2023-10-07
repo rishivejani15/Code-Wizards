@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Text To Speech in JavaScript | StoryVerse</title>
+    <link rel="stylesheet" href="TTS.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>Text To Speech</header>
+      <form action="#">
+        <div class="row">      
+        <textarea id="highlightMe">In the heart of a bustling metropolis, corruption runs rampant within the city's police force. Detective John Maverick, a brooding and relentless officer, finds himself at odds with his own colleagues as he investigates a series of high-profile murders that seem to implicate some of the most powerful figures in the city.
+          When his partner and best friend is brutally slain in what appears to be a setup, Maverick goes rogue, determined to uncover the truth and bring the perpetrators to justice. With the weight of the entire police force and criminal underworld against him, Maverick's quest for vengeance becomes a fight for the very soul of the city.
+          As he races against time to unravel the conspiracy and expose the corrupt elite, Maverick allies himself with a group of unlikely companions—hackers, ex-military operatives, and a mysterious femme fatale with her own hidden agenda. Together, they form an underground resistance and wage a relentless war against the criminal empire that holds the city in its grip.
+          "Rogue Justice" is a pulse-pounding action thriller that explores themes of betrayal, redemption, and the blurred line between right and wrong. Maverick's journey will push him to his limits as he navigates a treacherous world of deception, danger, and deadly showdowns. Will he succeed in his quest for justice, or will he become the very thing he despises?</textarea>
+        </div>
+        <div class="row">
+          <label>Select Voice</label>
+          <div class="outer">
+            <select></select>
+          </div>
+        </div>
+        <button onclick="startTextToSpeech()">Convert To Speech</button>
+      </form>
+    </div>
+
+    <script src="TTS.js"></script>
+  </body>
+</html>
